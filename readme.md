@@ -1,3 +1,4 @@
+assignment by https://roadmap.sh/projects/server-stats
 Server Performance Stats
 A lightweight Python script to analyse basic server performance stats.
 This tool provides a quick snapshot of your system’s resource usage, helping you debug performance issues or get a better understanding of server load.
