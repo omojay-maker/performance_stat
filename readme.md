@@ -1,13 +1,33 @@
-# Server Performance Stats
+Server Performance Stats
+A lightweight Python script to analyse basic server performance stats.
+This tool provides a quick snapshot of your system’s resource usage, helping you debug performance issues or get a better understanding of server load.
 
-This repository contains a Bash script to analyse basic server performance stats.
+Features
+Total CPU usage (percentage)
 
-Project URL: https://github.com/omojay-maker/performance_stat.git
+Total memory usage (free, used, and percentage)
 
-How to Use
-Save the script in your repository as server-stats.sh.
+Total disk usage (free, used, and percentage) – for the root partition
 
-Make it executable:
+Top 5 processes by CPU usage
+
+Top 5 processes by memory usage
+
+Optional stretch goals (see below)
+
+Requirements
+Python 3.6 or higher
+
+psutil library
+
+Installation
+Clone this repository or download the script file.
+
+Install the required dependency:
+
+bash
+pip install psutil
+Make the script executable (optional on Linux/macOS):
 
 bash
 chmod +x server-stats.sh
